@@ -1,0 +1,11 @@
+<input type="checkbox" name="customCheckbox" value="" data-bind='checked: CheckVals'/><div> Check to Agree </div>
+
+<div data-bind="if: isLogedIn">
+	<div data-bind="if: window.customerData.custom_attributes.'is_superhero'.value == 1">
+        <div>
+            <select data-bind="event:{ change: getCountry}, options: availableCountries, selectedOptions: chosenCountries"></select>
+            <span data-bind="text: chosenCountries"></span>
+
+        </div>
+    </div>
+</div>

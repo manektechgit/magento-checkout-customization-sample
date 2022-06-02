@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="CustomerBased_CheckoutCustomization::checkout_customization" title="Checkout Customization" translate="title" module="CustomerBased_CheckoutCustomization" sortOrder="20" parent="Magento_Sales::sales_operation" action="checkoutcustomization/checkoutcustomization/index" resource="CustomerBased_CheckoutCustomization::checkout_customization"/>
+    </menu>
+</config>

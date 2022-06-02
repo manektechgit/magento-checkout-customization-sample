@@ -1,0 +1,12 @@
+{
+    "sales_order": {
+        "column": {
+            "superhero_universes": true
+        }
+    },
+    "quote": {
+        "column": {
+            "superhero_universes": true
+        }
+    }
+}
